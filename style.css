@@ -18,6 +18,7 @@ p, li {
 
 #inspiration {
     background-color: #F0F0F0;
+    opacity: 0.5;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 25px;
@@ -26,36 +27,20 @@ p, li {
 
 #homework {
     background-color: #f0f0f0;
+    opacity: 0.5;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 25px;
     padding-left: 25px;
-    margin: -20px 0 0 -20px;
+    margin: -20px 0 0 -30px;
 }
 
 #tutorials {
     background-color: #F0F0F0;
+    opacity: 0.5;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 25px;
-    margin: -20px 0 0 -20px;
+    margin: -20px 0 0 -40px;
 }
 
-.sidenav {
-    width: 160px;
-    position: fixed; 
-    z-index: 1; 
-    top: 0; 
-    left: 0;
-    background-color: rgb(175, 75, 75);
-    background-image: url("message.jpeg");
-    overflow-x: hidden; 
-    padding-top: 20px;
-  }
-    .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
