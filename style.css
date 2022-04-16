@@ -2,20 +2,37 @@
 * {
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Space+Mono:ital@0;1&display=swap');
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Space Mono', monospace;
 }
 header, section {
     padding: 20px;
+    font-family: 'Modak', cursive;
 }
 p, li {
     line-height: 1.5em;
 }
 
 #inspiration {
+    background-image: url('cloud.png');
     background-color: #F0F0F0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#homework {
+    background-image: url('cloud.png');
+    background-color: #15ff00;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#tutorials {
+    background-image: url('cloud.png');
+    background-color: #ff0000;
     padding-top: 40px;
     padding-bottom: 40px;
 }
