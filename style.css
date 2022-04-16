@@ -30,7 +30,7 @@ p, li {
     padding-bottom: 25px;
     padding-right: 25px;
     padding-left: 25px;
-    margin: 40px 0 auto;
+    margin: -20px 0 0 -20px;
 }
 
 #tutorials {
@@ -38,5 +38,24 @@ p, li {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 25px;
-    margin: 15px 0 0 30x;
+    margin: -20px 0 0 -20px;
 }
+
+.sidenav {
+    width: 160px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(175, 75, 75);
+    background-image: url("message.jpeg");
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+    .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
