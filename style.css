@@ -18,21 +18,24 @@ p, li {
 
 #inspiration {
     background-image: url('cloud.png');
-    background-color: #F0F0F0;
+    background-color: #70d667;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: -20px 0 0 -20px;
 }
 
 #homework {
     background-image: url('cloud.png');
-    background-color: #15ff00;
+    background-color: #4d9c46;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: 40px 0 auto;
 }
 
 #tutorials {
     background-image: url('cloud.png');
-    background-color: #ff0000;
+    background-color: #3b783ba3;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: 15px 0 0 30x;
 }
