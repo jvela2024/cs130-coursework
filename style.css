@@ -15,26 +15,29 @@ header, section {
 p, li {
     line-height: 1.5em;
 }
-
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
 #inspiration {
-    background-image: url('cloud.png');
-    background-color: #70d667;
+    background-image: url('metalorb.png');
     padding-top: 40px;
     padding-bottom: 40px;
     margin: -20px 0 0 -20px;
 }
 
 #homework {
-    background-image: url('cloud.png');
-    background-color: #4d9c46;
+    background-image: url('metalorb.png');
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 40px 0 auto;
 }
 
 #tutorials {
-    background-image: url('cloud.png');
-    background-color: #3b783ba3;
+    background-image: url('metalorb.png');
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 15px 0 0 30x;
