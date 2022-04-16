@@ -6,7 +6,7 @@
 
 header, section {
     padding: 20px;
-    font-family: 'Modak'
+    font-family: 'Modak', cursive;
 }
 p, li {
     line-height: 1.5em;
