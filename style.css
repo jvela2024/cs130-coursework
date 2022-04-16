@@ -17,22 +17,26 @@ p, li {
 }
 
 #inspiration {
-    background-image: url('metalorb.png');
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: #F0F0F0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
     margin: -20px 0 0 -20px;
 }
 
 #homework {
-    background-image: url('metalorb.png');
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: #f0f0f0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
     margin: 40px 0 auto;
 }
 
 #tutorials {
-    background-image: url('metalorb.png');
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: #F0F0F0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
     margin: 15px 0 0 30x;
 }
