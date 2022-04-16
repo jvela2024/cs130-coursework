@@ -2,11 +2,10 @@
 * {
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Space+Mono:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Modak&family=Space+Mono:ital@0;1&display=swap');
 header, section {
     padding: 20px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Modak', cursive;
 }
 p, li {
     line-height: 1.5em;
