@@ -1,0 +1,62 @@
+body * {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.container {
+   display: grid;
+/* grid-template-columns: 1f 1f 1f 1f;
+   grid-template-rows: 0.2fr 1fr 1fr;
+   grid-template-areas:
+   "A . B B"
+   "C D E G"
+   "F F F G" 
+*/
+   min-height: 100vh;
+   padding: 20px;
+   grid-row-gap: 20px;
+   grid-column-gap: 20px;
+}
+
+.menu1 {
+   grid-area: A;
+   background: rgb(69, 154, 106);
+}
+
+.menu2 {
+   grid-area: B;
+   background: rgb(154, 69, 69);
+
+}
+
+.card1 {
+   grid-area: C;
+   background: rgb(69, 78, 154);
+
+}
+
+.card2 {
+   grid-area: D;
+   background: rgb(134, 69, 154);
+
+}
+.card3 {
+   grid-area: E;
+   background: rgb(207, 197, 57);
+
+}
+.main {
+   grid-area: F;
+   background: rgb(209, 160, 205);
+
+}
+.aside {
+   grid-area: G;
+   background: rgb(206, 151, 13);
+
+}
+
+@media (max-width: 1024px) {
+   /* tablet layout here */
+}
