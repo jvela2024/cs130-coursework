@@ -10,7 +10,7 @@ body * {
 /* grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: 0.2fr 1fr 1fr;
    grid-template-areas:
-   "A . B B"
+   "A B B B"
    "C D E G"
    "F F F G" 
 */
