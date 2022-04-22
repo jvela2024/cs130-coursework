@@ -10,7 +10,7 @@ body * {
 /* grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: 0.2fr 1fr 1fr;
    grid-template-areas:
-   "A B B B"
+   "A . B B"
    "C D E G"
    "F F F G" 
 */
@@ -65,5 +65,14 @@ article, aside, section, main, section > div {
 }
 
 @media (max-width: 1024px) {
-   /* tablet layout here */
+   .container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 0.2fr 0.3fr 1fr 1fr 1fr;
+      grid-template-areas:
+      "A B"
+      "G G"
+      "C D"
+      "E E"
+      "F F";
+   }
 }
