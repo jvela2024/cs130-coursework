@@ -1,7 +1,6 @@
 body * {
   width: 100%;
   box-sizing: border-box;
-  background: rgb(224, 224, 202);
 }
 
 
@@ -17,6 +16,7 @@ body * {
    padding: 20px;
    grid-row-gap: 20px;
    grid-column-gap: 20px;
+   background: rgb(224, 224, 202);
 }
 
 article, aside, section, main, section > div {
