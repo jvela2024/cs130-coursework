@@ -7,13 +7,12 @@ body * {
 
 .container {
    display: grid;
-/* grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: 0.2fr 1fr 1fr;
    grid-template-areas:
    "A . B B"
    "C D E G"
-   "F F F G" 
-*/
+   "F F F G";
    min-height: 100vh;
    padding: 20px;
    grid-row-gap: 20px;
@@ -72,6 +71,20 @@ article, aside, section, main, section > div {
       "A B"
       "G G"
       "C D"
+      "E E"
+      "F F";
+   }
+}
+
+@media (max-width: 600px) {
+   .container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      grid-template-areas:
+      "A ."
+      "B B"
+      "C C"
+      "D D"
       "E E"
       "F F";
    }
