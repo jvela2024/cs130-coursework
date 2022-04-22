@@ -89,3 +89,7 @@ article, aside, section, main, section > div {
       "F F";
    }
 }
+
+aside {
+   display: none;
+}
