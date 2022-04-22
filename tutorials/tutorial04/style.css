@@ -1,12 +1,13 @@
 body * {
   width: 100%;
   box-sizing: border-box;
+  background: rgb(224, 224, 202);
 }
 
 
 .container {
    display: grid;
-/* grid-template-columns: 1f 1f 1f 1f;
+/* grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: 0.2fr 1fr 1fr;
    grid-template-areas:
    "A . B B"
@@ -19,6 +20,12 @@ body * {
    grid-column-gap: 20px;
 }
 
+article, aside, section, main, section > div {
+   display: flex;
+   font-family: 'Arial';
+   justify-content: center;
+   align-items: center;
+}
 .menu1 {
    grid-area: A;
    background: rgb(69, 154, 106);
