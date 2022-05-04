@@ -167,6 +167,7 @@ nav {
 .artist-card {
     font-size: 12px;
     text-align: justify;
+    word-wrap: break-word
 }
 
 
