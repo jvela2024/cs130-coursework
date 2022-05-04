@@ -180,11 +180,12 @@ nav {
     padding: 0.5em 0.2em 0.8em 0.5em;
 
 }
+
 button{
       display:none;
       opacity:0;
   }
-button:hover{
+&:hover{
     display: inline-block;
     opacity: 1;
   }
