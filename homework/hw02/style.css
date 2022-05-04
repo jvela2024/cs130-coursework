@@ -135,7 +135,7 @@ nav {
 /*************************/
 
 /* Your Code Here */
-article {
+/* article {
     display: grid;
     grid-template-columns: 
     1fr 1fr 1fr;
@@ -144,9 +144,13 @@ article {
     column-gap: 10px;
     row-gap: 10px;
     grid-template-columns: repeat( autofit, minmax (10px, 1fr))
+} */
+
+#featured-content{
+    display: flex;
+    flex-direction: row;
+    
 }
-
-
 
 
 
