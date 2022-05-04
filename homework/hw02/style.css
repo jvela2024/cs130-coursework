@@ -141,10 +141,11 @@ article {
     1fr 1fr 1fr;
     grid-template-rows: 
     1fr 1fr 1fr;
-    margin: 2px;
-    padding: 5px;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat( 3, minmax (10px, 1fr))
 
-}
+
 
 
 
