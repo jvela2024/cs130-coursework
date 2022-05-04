@@ -149,7 +149,7 @@ nav {
 #featured-content{
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
     flex-flow: row wrap; 
 }
 
