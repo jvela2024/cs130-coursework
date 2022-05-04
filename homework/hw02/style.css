@@ -81,11 +81,6 @@ footer {
 /***************************/
 
 /* Your Code Here */
-aside {
-display: flex;
-flex-direction: column;
-align-content: space-evenly; 
-}
 
 .Spotify {
     margin-top: 25px;
