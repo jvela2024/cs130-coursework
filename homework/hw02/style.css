@@ -149,7 +149,7 @@ nav {
 #featured-content{
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 30px;
     flex-flow: row wrap; 
 
 
@@ -167,7 +167,7 @@ nav {
     font-size: 12px;
     text-align: justify;
     overflow-x: auto;
-    
+
 }
 
 .artist-card {
