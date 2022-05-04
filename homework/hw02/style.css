@@ -156,8 +156,8 @@ nav {
 }
 
 .artist-card img {
-     width: 50px;
-     height: 50px;
+     max-width: 50px;
+     max-height: 50px;
      border-radius: 50%;
      margin-top: 25px;
 
@@ -166,14 +166,14 @@ nav {
 .card-footer {
     font-size: 12px;
     text-align: justify;
-    word-wrap: break-word;
-
+    overflow-x: auto;
+    
 }
 
 .artist-card {
     background-color: gray; 
-    width: 25px;
-    height: 25px;
+    max-width: 25px;
+    max-height: 25px;
 }
 
 
