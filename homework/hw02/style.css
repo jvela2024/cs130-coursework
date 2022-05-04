@@ -149,8 +149,12 @@ nav {
 #featured-content{
     display: flex;
     flex-direction: row;
-    
 }
+
+.artist-card {
+    width: 100px; 
+}
+
 
 
 
