@@ -90,19 +90,19 @@ footer {
 .Home {
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 6px;
+    margin-left: 3px;
 
 }
 .Search {
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 6px;
+    margin-left: 3px;
 
 }
 .YourLibrary {
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 6px;
+    margin-left: 3px;
 
 }
 
@@ -117,7 +117,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    row-gap: 20px; 
+    row-gap: 50px; 
     
 
     
