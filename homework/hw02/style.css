@@ -151,7 +151,7 @@ nav {
     flex-direction: row;
     gap: 100px;
     flex-flow: row wrap; 
-
+    justify-content: center;
 
 }
 
@@ -159,7 +159,6 @@ nav {
      max-width: 50px;
      max-height: 50px;
      border-radius: 50%;
-     justify-content: center;
 }
 
 .card-footer {
