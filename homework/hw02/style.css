@@ -156,8 +156,8 @@ nav {
 }
 
 .artist-card img {
-     max-width: auto;
-     max-height: auto;
+     max-width: 50px;
+     max-height: 50px;
      border-radius: 50%;
      justify-content: center;
 }
@@ -170,7 +170,7 @@ nav {
 }
 
 .artist-card {
-    background-color: gray; 
+    background-color: #828282; 
     max-width: 100px;
     max-height: 100px;
     padding-bottom: 50px;
