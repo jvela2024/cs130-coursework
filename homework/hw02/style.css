@@ -151,8 +151,8 @@ nav {
     flex-direction: row;
 }
 
-.artist-card {
-    width: 100px; 
+.artist-card img {
+     width: 100px;
 }
 
 
