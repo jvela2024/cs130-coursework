@@ -182,11 +182,11 @@ nav {
 }
 .playbutton {
     cursor: pointer;
-    opacity: 0;
+    display: none;
 }
 .play-button:hover {
     background-color: rgb(164, 163, 163); 
-    opacity: 1;
+    display: inline-block;
 }
 
 /**************************/
