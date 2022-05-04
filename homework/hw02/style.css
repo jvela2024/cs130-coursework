@@ -190,14 +190,6 @@ button{
     opacity: 1;
 }
 
-.edit {
-	padding-top: 7px;	
-	padding-right: 7px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	display: none;
-}
   
 /**************************/
 /* Part D: Responsive UIs */
