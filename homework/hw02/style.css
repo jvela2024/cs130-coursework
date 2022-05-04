@@ -180,10 +180,13 @@ nav {
     padding: 0.5em 0.2em 0.8em 0.5em;
 
 }
-
+.playbutton {
+    cursor: pointer;
+    opacity: 0;
+}
 .play-button:hover {
     background-color: rgb(164, 163, 163); 
-
+    opacity: 1;
 }
 
 /**************************/
