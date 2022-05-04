@@ -135,7 +135,7 @@ nav {
 /*************************/
 
 /* Your Code Here */
-.artist-card {
+article {
     display: grid;
     grid-template-columns: 
     1fr 1fr 1fr;
