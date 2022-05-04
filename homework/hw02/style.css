@@ -167,12 +167,15 @@ nav {
 }
 
 .artist-card {
+    display:inline-block;
     background-color: #828282; 
     max-width: 100px;
     max-height: 100px;
-    padding-bottom: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 0.5em 0.2em 0.8em 0.5em;
+
+
 
 }
 
