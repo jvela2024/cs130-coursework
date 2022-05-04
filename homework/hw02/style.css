@@ -157,6 +157,7 @@ nav {
      max-width: 50px;
      max-height: 50px;
      border-radius: 50%;
+     justify-content: center;
 }
 
 .card-footer {
@@ -173,7 +174,6 @@ nav {
     padding-bottom: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-    justify-content: center;
 
 }
 
