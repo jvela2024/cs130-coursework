@@ -186,7 +186,7 @@ button{
       opacity:0;
   }
   .artist-card:hover button {
-	display: block;
+	display: inline-block;
 }
 
 .edit {
