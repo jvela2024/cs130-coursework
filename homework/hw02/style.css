@@ -118,7 +118,7 @@ align-content: space-evenly;
 
 /* Your Code Here */
 
-.upgrade {
+.header {
     display: flex;
     justify-content: flex-start;
     position: absolute;
@@ -128,14 +128,6 @@ align-content: space-evenly;
     margin-left: 5px;
     
 }
-.profile {
-    display: flex;
-    justify-content: flex-start;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 5px;
-    margin-left: 5px;
 
 
 
