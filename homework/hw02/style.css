@@ -141,7 +141,9 @@ article {
     flex-wrap: wrap;
     gap: 10px;
 }
-
+.one{order: 1}
+.two{order: 2}
+.three{order: 3}
 
 
 /**************************/
