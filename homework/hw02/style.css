@@ -162,9 +162,13 @@ nav {
      margin-top: 25px;
      background-color: gray; 
 
-
-
 }
+
+.artist-card {
+    font-size: 12px;
+    text-align: justify;
+}
+
 
 
 
