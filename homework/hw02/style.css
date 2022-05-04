@@ -180,15 +180,18 @@ nav {
     padding: 0.5em 0.2em 0.8em 0.5em;
 
 }
-.playbutton {
+tr {
     cursor: pointer;
+  }
+  
+  tr .play-button {
     display: none;
-}
-.play-button:hover {
-    background-color: rgb(164, 163, 163); 
+  }
+  
+  tr:hover .playbutton {
     display: inline-block;
-}
-
+  }
+  
 /**************************/
 /* Part D: Responsive UIs */
 /**************************/
