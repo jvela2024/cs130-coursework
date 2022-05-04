@@ -185,7 +185,7 @@ button{
       opacity:0;
   }
 button:hover{
-    display: block;
+    display: inline-block;
     opacity: 1;
   }
   
