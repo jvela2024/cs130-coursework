@@ -117,7 +117,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    row-gap: 5px; 
+    row-gap: 20px; 
+    padding-left: 15px
     
 }
 
