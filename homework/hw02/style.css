@@ -180,16 +180,13 @@ nav {
     padding: 0.5em 0.2em 0.8em 0.5em;
 
 }
-.play-button {
-    cursor: pointer;
+button{
+      display:none;
+      opacity:0;
   }
-  
-  .play-button {
-    display: none;
-  }
-  
-  .play-button {
+button:hover{
     display: block;
+    opacity: 1;
   }
   
 /**************************/
