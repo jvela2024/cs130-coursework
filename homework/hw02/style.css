@@ -151,8 +151,6 @@ nav {
     flex-direction: row;
     gap: 100px;
     flex-flow: row wrap; 
-    justify-content: center;
-
 }
 
 .artist-card img {
@@ -175,6 +173,7 @@ nav {
     padding-bottom: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+    justify-content: center;
 
 }
 
