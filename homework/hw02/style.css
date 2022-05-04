@@ -160,19 +160,21 @@ nav {
      max-height: 50px;
      border-radius: 50%;
      margin-top: 25px;
-     overflow-x: auto;
-     background-color: gray; 
 
 }
 
-.artist-card {
+.card-footer {
     font-size: 12px;
     text-align: justify;
+    overflow-x: auto;
     white-space: nowrap;
 }
 
-
-
+.artist-card {
+    background-color: gray; 
+    max-width: 25px;
+    max-height: 25px;
+}
 
 
 /**************************/
