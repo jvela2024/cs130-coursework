@@ -120,11 +120,13 @@ header {
     padding-right: 40px;
     gap: 50px;
     row-gap: 50px; 
-    
-
-    
 }
-
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 40px;
+}
 
 
 
