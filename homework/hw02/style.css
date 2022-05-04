@@ -198,3 +198,8 @@ button{
 /* Your Code Here */
 
 
+@media (max-width: 800px) {
+    #featured-content {
+      flex-direction: column;
+    }
+}
