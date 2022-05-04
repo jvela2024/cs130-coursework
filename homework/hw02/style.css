@@ -119,13 +119,13 @@ header {
     justify-content: flex-end;
     padding-right: 40px;
     gap: 50px;
-    row-gap: 50px; 
+    row-gap: 40px; 
 }
 nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 40px;
 }
 
 
