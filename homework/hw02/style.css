@@ -161,6 +161,7 @@ nav {
 }
 
 .card-footer {
+    display:inline-block;
     font-size: 12px;
     text-align: justify left;
     overflow-x: auto;
