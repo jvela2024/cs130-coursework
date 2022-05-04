@@ -179,10 +179,12 @@ nav {
     margin-bottom: 12px;
     padding: 0.5em 0.2em 0.8em 0.5em;
 
-
-
 }
 
+.play-button:hover {
+    background-color: rgb(164, 163, 163); 
+
+}
 
 /**************************/
 /* Part D: Responsive UIs */
