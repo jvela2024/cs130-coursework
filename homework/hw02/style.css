@@ -113,7 +113,7 @@ footer {
 
 /* Your Code Here */
 
-.header {
+header {
     display: flex;
     justify-content: flex-start;
     position: absolute;
