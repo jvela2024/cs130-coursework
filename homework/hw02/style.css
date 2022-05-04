@@ -143,9 +143,9 @@ article {
     1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 10px;
-    grid-template-columns: repeat( 3, minmax (10px, 1fr))
+    grid-template-columns: repeat(auto-fill, minmax(min(200px,100%), 1fr));
 
-
+}
 
 
 
