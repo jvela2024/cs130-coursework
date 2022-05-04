@@ -150,6 +150,7 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 15px;
+    flex-flow: row wrap; 
 
 
 }
