@@ -180,13 +180,12 @@ nav {
     padding: 0.5em 0.2em 0.8em 0.5em;
 
 }
-
-.artist-card {
-	position: relative;
-	display: inline-block;
 }
-
-.artist-card:hover .play-button {
+button{
+      display:none;
+      opacity:0;
+  }
+  .artist-card:hover button {
 	display: block;
 }
 
@@ -198,7 +197,6 @@ nav {
 	top: 0;
 	display: none;
 }
-
   
 /**************************/
 /* Part D: Responsive UIs */
