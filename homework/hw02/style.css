@@ -99,7 +99,7 @@ footer {
     margin-left: 25px;
 
 }
-.Your Library {
+.YourLibrary {
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
@@ -115,12 +115,9 @@ footer {
 
 header {
     display: flex;
-    justify-content: flex-start;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 5px;
-    margin-left: 5px;
+    flex-direction: row;
+    justify-content: flex-end;
+    row-gap: 5px; 
     
 }
 
