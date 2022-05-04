@@ -170,10 +170,11 @@ nav {
 
 .artist-card {
     background-color: gray; 
-    max-width: 50px;
-    max-height: 50px;
-    padding-bottom: 25px;
-    margin-top: 25px;
+    max-width: 100px;
+    max-height: 100px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
