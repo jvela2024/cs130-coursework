@@ -212,3 +212,6 @@ flex: 100%;
       flex-direction: column;
     }
 }
+@media all and (max-width: 480px) {
+    aside { display: none; }
+  }
