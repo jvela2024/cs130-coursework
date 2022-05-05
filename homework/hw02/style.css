@@ -151,6 +151,7 @@ nav {
     flex-direction: row;
     gap: 50px;
     flex-flow: row wrap; 
+    flex-wrap: wrap;
 }
 
 .artist-card img {
@@ -196,10 +197,18 @@ button{
 /**************************/
 
 /* Your Code Here */
-
+.flex-item-left {
+    flex: 50%
+}
+.flex-item-right {
+    flex: 50%
+}
 
 @media (max-width: 800px) {
     #featured-content {
+        .flex-item-right .flex-item-left {
+flex: 100%;
+        }
       flex-direction: column;
     }
 }
