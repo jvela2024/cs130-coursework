@@ -1,19 +1,21 @@
+let currentFont = 1.4; 
+
 const makeBigger = () => {
-   alert('make bigger!');
+   currentFont += 0.2; 
+   document.querySelector(".content").style.fontSize = `${currentFont}em`;
+   document.querySelector("h1").style.fontSize = `${currentFont + 0.5}em`;
+
 };
 
 const makeSmaller = () => {
-   alert('make smaller!');
+   currentFont -= 0.2; 
+   document.querySelector(".content").style.fontSize = `${currentFont}em`;
+   document.querySelector("h1").style.fontSize = `${currentFont + 0.5}em`;
 };
 
 
-document.getElementsByClassName(".a1").addEventListener('click', makeBigger);
-document.getElementsByClassName(".a2").addEventListener('click', makeSmaller);
+document.getElementById("a1").addEventListener('click', makeBigger);
+document.getElementById("a2").addEventListener('click', makeSmaller);
 
-function makeBigger () {
-   $(this).css({height: '+=10%', width: '+=10%'});
-}
-function makeSmaller () {
-   $(this).css({height: '-=10%', width: '-=10%'});
-}
+
 

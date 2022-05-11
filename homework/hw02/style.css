@@ -123,6 +123,10 @@ nav {
     gap: 40px;
 }
 
+nav a {
+    text-transform: uppercase;
+
+}
 
 
 
@@ -202,21 +206,22 @@ button{
 /**************************/
 
 /* Your Code Here */
-.flex-item-left {
-    flex: 50%
-}
-.flex-item-right {
-    flex: 50%
-}
-
-@media (max-width: 800px) {
-    #featured-content {
-        .flex-item-right .flex-item-left {
-flex: 100%;
-        }
-      flex-direction: column;
+@media screen and (max-width: 1200px) {
+    .artist-card {
+        width: 25%;
     }
 }
-@media all and (max-width: 800px) {
+
+@media screen and (max-width: 800px) {
+    body {
+grid-template-columns: auto;
+grid-template-areas: 
+"main" 
+"bottom";    
+    }
     aside { display: none; }
+    .artist-card {
+        width: 50%;
+        height: auto; 
+    }
   }
