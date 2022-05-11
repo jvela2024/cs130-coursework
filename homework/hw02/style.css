@@ -132,8 +132,7 @@ nav {
 }
 
 .artist-card img {
-     max-width: 50px;
-     max-height: 50px;
+     width: 100%;
      border-radius: 50%;
      justify-content: center;
 }
@@ -157,6 +156,8 @@ nav {
     margin-bottom: 12px; */
     padding: 20px;
     height: 285px; 
+    align-items: center;
+    justify-items: center; 
 
 }
 .artist-card > div {
