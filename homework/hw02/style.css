@@ -161,7 +161,7 @@ nav {
 }
 .artist-card > div {
     background: #222; 
-    border-radius: 10x; 
+    border-radius: 10px; 
     display: flex; 
     flex-direction: column;
     justify-content: space-between;
