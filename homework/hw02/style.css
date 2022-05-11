@@ -82,7 +82,7 @@ footer {
 
 /* Your Code Here */
 
-.Spotify {
+/* .Spotify {
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
@@ -102,10 +102,14 @@ footer {
 .YourLibrary {
     margin-top: 25px;
     margin-bottom: 25px;
+    padding-left: 25px; */
+/* } */
+
+aside a {
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding-left: 25px;
-
 }
-
 
 /********************************/
 /* Part B: Header & Nav Styling */
