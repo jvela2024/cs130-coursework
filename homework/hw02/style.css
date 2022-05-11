@@ -100,12 +100,21 @@ header {
     height: 100px;
     align-items: center; 
 }
+
+header #upgrade {
+    border: solid 1px white; 
+    padding: 8px 30px; 
+    border-radius: 33px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
 nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 40px;
 }
+
 
 
 
