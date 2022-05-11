@@ -159,6 +159,15 @@ nav {
     height: 285px; 
 
 }
+.artist-card > div {
+    background: #222; 
+    border-radius: 10x; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px; 
+}
 
 button{
       display:none;
