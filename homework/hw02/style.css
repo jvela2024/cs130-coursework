@@ -149,8 +149,7 @@ nav {
 #featured-content{
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    flex-flow: row wrap; 
+    gap: 50px; 
     flex-wrap: wrap;
 }
 
@@ -171,7 +170,7 @@ nav {
 
 .artist-card {
     display:inline-block;
-    block-size: fit-content; 
+    block-size: 20%; 
     width: fit-content;
     background-color: #828282; 
     max-width: 150px;
