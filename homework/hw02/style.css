@@ -128,7 +128,6 @@ nav {
 #featured-content{
     display: flex;
     flex-direction: row;
-    gap: 50px; 
     flex-wrap: wrap;
 }
 
