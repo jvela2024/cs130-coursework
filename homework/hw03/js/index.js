@@ -42,3 +42,9 @@ const initScreen = () => {
 };
 
 initScreen();
+
+const showImage = (ev) => {
+    const elem = ev.currentTarget;
+    console.log(elem.style.backgroundImage);
+    document.querySelector('.cards').innerHTML += 
+}
