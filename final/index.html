@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <title>Electronic Waste</title>       
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+    <section class="showcase" >
+        <header>
+            <h2 class="logo"
+            </h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="sky.mp4" muted loop autoplay></video>
+        <div class="text"
+            <h2></h2>
+    </div>
+    <ul class="social">
+        <li><a href="#"><img src="instagram.png" width="50" height="50" alt="instagram"></a></li>
+    </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Creators</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Articles</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+   </body>
+</html> 
