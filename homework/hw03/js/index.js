@@ -17,7 +17,6 @@
  * 
  * 
  */
-
 const images = [
     'images/field1.jpg',
     'images/purple.jpg',
@@ -43,8 +42,40 @@ const initScreen = () => {
 
 initScreen();
 
-const showImage = (ev) => {
+let currentIndex = 0;
+
+ const showImage = (ev) => {
     const elem = ev.currentTarget;
-    console.log(elem.style.backgroundImage);
-    document.querySelector('.cards').innerHTML += 
+    currentIndex = parseInt(elem.dataset.index);
+    console.log("currentIndex:", currentIndex);
+    displayImage()
+ }
+const showNext = (ev) => {
+    currentIndex += 1;
+    console.log("currentIndex:", currentIndex);
+    if (currentIndex == 8){
+        currentIndex = 0
+    }
+    displayImage() 
 }
+const showPrev = (ev) => {
+        currentIndex -= 1;
+        console.log("currentIndex:", currentIndex);
+        if (currentIndex == -1){
+            currentIndex = 7
+        }
+        displayImage()
+}
+const displayImage = () => {
+    const Image = images[currentIndex]
+    document.querySelector('.featured_image').style.backgroundImage = `url('${Image}')
+    `
+}
+
+const imageElements = document.querySelectorAll('.image');
+    for (const elem of imageElements) {
+        elem.onclick = showImage;
+        }
+        document.querySelector('.next').onclick = showNext;
+        document.querySelector('.prev').onclick = showPrev;
+        document.querySelector('.featured_image').onclick = showNext;

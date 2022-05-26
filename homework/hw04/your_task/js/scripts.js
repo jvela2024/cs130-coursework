@@ -23,7 +23,7 @@ const getTracks = (term) => {
         "${term}" and load them into the #tracks section 
         of the DOM...`);
     console.log('about to fetch!');
-    fetch('https://www.apitutor.org/spotify/simple/v1/search?type=track&limit=5q=' + term)
+    fetch('https://www.apitutor.org/spotify/simple/v1/search?type=track&limit=5&q=' + term)
         .then(response => response.json())
         .then(tracks => {
             console.log(tracks);
@@ -34,8 +34,8 @@ const getTracks = (term) => {
             }
             for (const track of tracks) {
                 document.querySelector('#tracks').innerHTML +=`
-                <button class="track-item preview" data-preview-track="${track.preview_url}">
-                <img src="${track.artist.image_url}">
+                <button class="track-item preview" data-preview-track="${track.preview_url}" onclick="handleTrackClick(event);">
+                <img src="${track.album.image_url}">
                 <i class="fas fa-play play-track" aria-hidden="true"></i>
                 <div class="label">
                     <h2>${track.name}</h2>
@@ -48,6 +48,14 @@ const getTracks = (term) => {
             }
         });
 };
+
+const handleTrackClick = (ev) => {
+   const previewUrl = ev.currentTarget.getAttribute('data-preview-track');
+   console.log(previewUrl);
+   audioPlayer.setAudioFile(previewUrl);
+   audioPlayer.play();
+   document.querySelector("#current-track").innerHTML = ev.currentTarget.innerHTML
+}
 
 const getAlbums = (term) => {
     console.log(`
