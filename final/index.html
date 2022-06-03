@@ -22,143 +22,22 @@
     </ul>
     </section>
     </div>
-    <div class="menu">
+    <div class="menu"
         <ul>
             <li><a href="#">Creators</a></li>
             <li><a href="#">Photos</a></li>
             <li><a href="#">Videos</a></li>
             <li><a href="#">Articles</a></li>
+            <li><img src="ewastelogo.png"></img></li>
         </ul>
     </div>
     <script>
         const menuToggle = document.querySelector('.toggle')
         const showcase = document.querySelector('.showcase')
+        const menu = document.querySelector('.menu')
 
         menuToggle.addEventListener('click', () => {
-            menuToggle.classList.toggle('active')
-            showcase.classList.toggle('active')
+            menu.classList.toggle('active')
         })
     </script>
    </body>
-   <style>
-    #scrolly {
-      position: relative;
-      background-color: #f3f3f3;
-      padding: 1rem;
-    }
-
-    article {
-      position: relative;
-      padding: 0;
-      max-width: 20rem;
-      margin: 0 auto;
-    }
-
-    .sticky-thing {
-      position: -webkit-sticky;
-      position: sticky;
-      left: 0;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      background: url(sky.mp4);
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      z-index: 0;
-      top: 12.5vh;
-      height: 1500px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .sticky-thing p {
-      font-size: 8rem;
-      font-weight: 900;
-      color: #fff;
-    }
-
-    .step {
-      margin: 0 auto 2rem auto;
-      margin-bottom: 15rem; 
-      color: #fff;
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-
-    .step:last-child {
-      margin-bottom: 0;
-    }
-
-    .step.is-active p {
-      background-color: goldenrod;
-      color: #3b3b3b;
-    }
-
-    .step p {
-      text-align: center;
-      padding: 1rem;
-      font-size: 1.5rem;
-      background-color: #3b3b3b;
-    }
-  </style>
-</head>
-
-<body>
-  <main>
-    <section id="scrolly">
-      <div class="sticky-thing">
-        <p></p>
-      </div>
-
-      <article>
-        <div class="step">
-          <p>Creators.</p>
-        </div>
-        <div class="step">
-          <p>Photos.</p>
-        </div>
-        <div class="step">
-          <p>Videos.</p>
-        </div>
-        <div class="step" >
-          <p>Articles.</p>
-        </div>
-      </article>
-    </section>
-
-    <section id="outro"></section>
-  </main>
-
-  <script src="https://unpkg.com/scrollama"></script>
-  <script>
-    var main = document.querySelector("main");
-    var scrolly = main.querySelector("#scrolly");
-    var sticky = scrolly.querySelector(".sticky-thing");
-    var article = scrolly.querySelector("article");
-    var steps = article.querySelectorAll(".step");
-
-    var scroller = scrollama();
-
-    function handleStepEnter(response) {
-      var el = response.element;
-
-      steps.forEach(step => step.classList.remove('is-active'));
-      el.classList.add('is-active');
-
-    function init() {
-      scroller
-        .setup({
-          step: "#scrolly article .step",
-          offset: 0.33,
-          debug: false
-        })
-        .onStepEnter(handleStepEnter);
-
-        window.addEventListener("resize", scroller.resize);
-    }
-
-    init();
-  </script>
-</body>
-</html> 

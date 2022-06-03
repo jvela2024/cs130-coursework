@@ -87,19 +87,37 @@
 
 .menu {
     position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    right: 0;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: row;
     align-items: start;
     justify-content: start;
     transition: 0.5s; 
-    color: transparent;
+    background: url('systemmessage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+    overflow: hidden;
+    float: right;
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+.menu.active {
+    visibility:  visible; 
+    transition: 2s;
 }
 
 .menu ul li a {
+    opacity: 1;
     text-decoration: none;
-    font-size: 24px;
+    padding: 6px;
+    margin: 6px;
+    text-align: justify;
+    font-size: 100px;
     color: green; 
-}
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
